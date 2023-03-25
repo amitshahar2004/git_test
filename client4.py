@@ -11,7 +11,7 @@ import threading
 import connect_user
 
 
-
+ssssss
 
 def user_want_send_everyone_message(pos_x, pos_y, player, treat_messages):
         # אם המשתמש לחץ על המלבן הלבן האומר שהוא רוצה לשלוח הודעה
