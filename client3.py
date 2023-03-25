@@ -10,19 +10,8 @@ import pickle
 import threading
 import connect_user
 
+ronen
 
-
-
-def user_want_send_everyone_message(pos_x, pos_y, player, treat_messages):
-        # אם המשתמש לחץ על המלבן הלבן האומר שהוא רוצה לשלוח הודעה
-        if (pos_x >= 571 and pos_x <= 808) and (pos_y >= 655 and pos_y <= 694):
-            root = Tk()
-            gui = chat.GUI(root, player.get_starting_bear_point_x(), player.get_starting_bear_point_y(), player.get_name_player(), treat_messages)
-            root.mainloop()
-
-            return True
-
-        return False
 
 def user_clicked_on_box_to_play(pos_x, pos_y, zira, player):
         # אם המשתמש לחץ על התיבה זה אומר שהוא רוצה לשחק עם מישהו ולכן כל מי שלוחץ על התיבה צריך להיות באותו מקום ממנה
